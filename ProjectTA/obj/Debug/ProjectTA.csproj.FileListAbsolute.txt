@@ -8,3 +8,14 @@ D:\New folder\ProjectTA\ProjectTA\obj\Debug\ProjectTA.csproj.CoreCompileInputs.c
 D:\New folder\ProjectTA\ProjectTA\obj\Debug\ProjectTA.exe
 D:\New folder\ProjectTA\ProjectTA\obj\Debug\ProjectTA.pdb
 D:\New folder\ProjectTA\ProjectTA\obj\Debug\ProjectTA.Form1.resources
+D:\projectTA\ProjectTA\obj\Debug\ProjectTA.csproj.AssemblyReference.cache
+D:\projectTA\ProjectTA\obj\Debug\ProjectTA.Form1.resources
+D:\projectTA\ProjectTA\obj\Debug\ProjectTA.Form2.resources
+D:\projectTA\ProjectTA\obj\Debug\ProjectTA.Properties.Resources.resources
+D:\projectTA\ProjectTA\obj\Debug\ProjectTA.csproj.GenerateResource.cache
+D:\projectTA\ProjectTA\obj\Debug\ProjectTA.csproj.CoreCompileInputs.cache
+D:\projectTA\ProjectTA\obj\Debug\ProjectTA.exe
+D:\projectTA\ProjectTA\obj\Debug\ProjectTA.pdb
+D:\projectTA\ProjectTA\bin\Debug\ProjectTA.exe.config
+D:\projectTA\ProjectTA\bin\Debug\ProjectTA.exe
+D:\projectTA\ProjectTA\bin\Debug\ProjectTA.pdb

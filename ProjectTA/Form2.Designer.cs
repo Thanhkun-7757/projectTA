@@ -9,7 +9,7 @@ namespace ProjectTA
         public Form2()
         {
             InitializeComponent();
-            AddPhoneLabels(); // Gọi phương thức thêm Labels sau khi khởi tạo form
+            //AddPhoneLabels(); // Gọi phương thức thêm Labels sau khi khởi tạo form
         }
 
         private void InitializeComponent()
@@ -27,7 +27,7 @@ namespace ProjectTA
             // 
             this.textBoxScript.Location = new System.Drawing.Point(20, 20);
             this.textBoxScript.Name = "textBoxScript";
-            this.textBoxScript.Size = new System.Drawing.Size(300, 22);
+            this.textBoxScript.Size = new System.Drawing.Size(300, 20);
             this.textBoxScript.TabIndex = 0;
             this.textBoxScript.Text = "ALL,Slow,slow,low";
             // 
@@ -67,7 +67,7 @@ namespace ProjectTA
             // 
             this.textBoxCoordinates.Location = new System.Drawing.Point(560, 20);
             this.textBoxCoordinates.Name = "textBoxCoordinates";
-            this.textBoxCoordinates.Size = new System.Drawing.Size(200, 22);
+            this.textBoxCoordinates.Size = new System.Drawing.Size(200, 20);
             this.textBoxCoordinates.TabIndex = 3;
             this.textBoxCoordinates.Text = "(xA1:yA1,xA2:yA2), (xB2:yB2)";
             // 
@@ -79,7 +79,7 @@ namespace ProjectTA
             this.tableLayoutPanelPhones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanelPhones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanelPhones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanelPhones.Location = new System.Drawing.Point(20, 70);
+            this.tableLayoutPanelPhones.Location = new System.Drawing.Point(20, 77);
             this.tableLayoutPanelPhones.Name = "tableLayoutPanelPhones";
             this.tableLayoutPanelPhones.RowCount = 2;
             this.tableLayoutPanelPhones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -108,6 +108,7 @@ namespace ProjectTA
             this.Controls.Add(this.labelDescription);
             this.Name = "Form2";
             this.Text = "Phone View";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
