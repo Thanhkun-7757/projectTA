@@ -27,7 +27,7 @@ namespace ProjectTA
             // 
             this.textBoxScript.Location = new System.Drawing.Point(20, 20);
             this.textBoxScript.Name = "textBoxScript";
-            this.textBoxScript.Size = new System.Drawing.Size(300, 20);
+            this.textBoxScript.Size = new System.Drawing.Size(300, 22);
             this.textBoxScript.TabIndex = 0;
             this.textBoxScript.Text = "ALL,Slow,slow,low";
             // 
@@ -51,6 +51,7 @@ namespace ProjectTA
             this.buttonCapture.Size = new System.Drawing.Size(100, 30);
             this.buttonCapture.TabIndex = 2;
             this.buttonCapture.Text = "Chụp tọa độ";
+            this.buttonCapture.Click += new System.EventHandler(this.buttonCapture_Click_1);
             // 
             // buttonSave
             // 
@@ -67,7 +68,7 @@ namespace ProjectTA
             // 
             this.textBoxCoordinates.Location = new System.Drawing.Point(560, 20);
             this.textBoxCoordinates.Name = "textBoxCoordinates";
-            this.textBoxCoordinates.Size = new System.Drawing.Size(200, 20);
+            this.textBoxCoordinates.Size = new System.Drawing.Size(200, 22);
             this.textBoxCoordinates.TabIndex = 3;
             this.textBoxCoordinates.Text = "(xA1:yA1,xA2:yA2), (xB2:yB2)";
             // 
@@ -79,12 +80,12 @@ namespace ProjectTA
             this.tableLayoutPanelPhones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanelPhones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanelPhones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanelPhones.Location = new System.Drawing.Point(20, 77);
+            this.tableLayoutPanelPhones.Location = new System.Drawing.Point(20, 56);
             this.tableLayoutPanelPhones.Name = "tableLayoutPanelPhones";
             this.tableLayoutPanelPhones.RowCount = 2;
             this.tableLayoutPanelPhones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanelPhones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanelPhones.Size = new System.Drawing.Size(1171, 754);
+            this.tableLayoutPanelPhones.Size = new System.Drawing.Size(1413, 726);
             this.tableLayoutPanelPhones.TabIndex = 5;
             // 
             // labelDescription

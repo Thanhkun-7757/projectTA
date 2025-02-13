@@ -117,7 +117,6 @@
             this.buttonClose.Size = new System.Drawing.Size(25, 20);
             this.buttonClose.TabIndex = 2;
             this.buttonClose.Text = "X";
-            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // Form1
             // 
@@ -130,6 +129,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Giao diện chụp hình";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.panelPhone.ResumeLayout(false);
             this.panelPhone.PerformLayout();
             this.panelCoordinates.ResumeLayout(false);

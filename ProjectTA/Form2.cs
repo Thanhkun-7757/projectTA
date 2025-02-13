@@ -50,7 +50,7 @@ namespace ProjectTA
         {
             MessageBox.Show("Tọa độ đã lưu: " + textBoxCoordinates.Text);
         }
-        
+        private List<string> listDevices = GetConnectedDevices();
         private Size GetPhoneScreenSize(string deviceId)
         {
             try
@@ -151,10 +151,10 @@ namespace ProjectTA
         {
             try
             {
-                string scrcpyPath = @"D:\projectTA\scrcpy-win64-v3.1\scrcpy.exe";
+                string scrcpyPath = @"C:\Users\Admin\Documents\job\projectTA\ProjectTA\scrcpy-win64-v3.1\scrcpy-win64-v3.1\scrcpy.exe";
 
                 // Lấy danh sách thiết bị đang kết nối
-                List<string> devices = GetConnectedDevices();
+                List<string> devices = listDevices;
                 int deviceCount = devices.Count;
 
                 if (deviceCount == 0)
@@ -211,7 +211,7 @@ namespace ProjectTA
         }
 
 
-        private List<string> GetConnectedDevices()
+        private static List<string> GetConnectedDevices()
         {
             List<string> deviceList = new List<string>();
             try
@@ -262,6 +262,24 @@ namespace ProjectTA
                     }
                 }
             }
+        }
+
+        private void buttonCapture_Click_1(object sender, EventArgs e)
+        {
+            List<string> devices = GetConnectedDevices();
+
+            if (devices.Count == 0)
+            {
+                MessageBox.Show("Không có thiết bị nào được kết nối.");
+                return;
+            }
+
+            // Lấy ID thiết bị đầu tiên
+            string firstDeviceId = devices[0];
+
+            // Mở Form3
+            Form1 form3 = new Form1(firstDeviceId);
+            form3.Show();
         }
     }
 }

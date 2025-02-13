@@ -19,3 +19,14 @@ D:\projectTA\ProjectTA\obj\Debug\ProjectTA.pdb
 D:\projectTA\ProjectTA\bin\Debug\ProjectTA.exe.config
 D:\projectTA\ProjectTA\bin\Debug\ProjectTA.exe
 D:\projectTA\ProjectTA\bin\Debug\ProjectTA.pdb
+C:\Users\Admin\Documents\job\projectTA\ProjectTA\bin\Debug\ProjectTA.exe.config
+C:\Users\Admin\Documents\job\projectTA\ProjectTA\bin\Debug\ProjectTA.exe
+C:\Users\Admin\Documents\job\projectTA\ProjectTA\bin\Debug\ProjectTA.pdb
+C:\Users\Admin\Documents\job\projectTA\ProjectTA\obj\Debug\ProjectTA.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\job\projectTA\ProjectTA\obj\Debug\ProjectTA.Form1.resources
+C:\Users\Admin\Documents\job\projectTA\ProjectTA\obj\Debug\ProjectTA.Form2.resources
+C:\Users\Admin\Documents\job\projectTA\ProjectTA\obj\Debug\ProjectTA.Properties.Resources.resources
+C:\Users\Admin\Documents\job\projectTA\ProjectTA\obj\Debug\ProjectTA.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\job\projectTA\ProjectTA\obj\Debug\ProjectTA.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\job\projectTA\ProjectTA\obj\Debug\ProjectTA.exe
+C:\Users\Admin\Documents\job\projectTA\ProjectTA\obj\Debug\ProjectTA.pdb
