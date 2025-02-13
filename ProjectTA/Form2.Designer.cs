@@ -84,7 +84,7 @@ namespace ProjectTA
             this.tableLayoutPanelPhones.RowCount = 2;
             this.tableLayoutPanelPhones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanelPhones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanelPhones.Size = new System.Drawing.Size(850, 200);
+            this.tableLayoutPanelPhones.Size = new System.Drawing.Size(1171, 754);
             this.tableLayoutPanelPhones.TabIndex = 5;
             // 
             // labelDescription
@@ -98,7 +98,7 @@ namespace ProjectTA
             // 
             // Form2
             // 
-            this.ClientSize = new System.Drawing.Size(900, 320);
+            this.ClientSize = new System.Drawing.Size(1470, 866);
             this.Controls.Add(this.textBoxScript);
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.buttonCapture);
@@ -109,6 +109,7 @@ namespace ProjectTA
             this.Name = "Form2";
             this.Text = "Phone View";
             this.Load += new System.EventHandler(this.Form2_Load);
+            this.Resize += new System.EventHandler(this.Form2_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
 
