@@ -28,26 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panelPhone = new System.Windows.Forms.Panel();
             this.labelPhone = new System.Windows.Forms.Label();
             this.buttonCapture = new System.Windows.Forms.Button();
             this.panelCoordinates = new System.Windows.Forms.Panel();
             this.labelTitle = new System.Windows.Forms.Label();
-            this.labelCoordinates = new System.Windows.Forms.Label();
             this.buttonClose = new System.Windows.Forms.Button();
-            this.panelPhone.SuspendLayout();
+            this.button1 = new System.Windows.Forms.Button();
             this.panelCoordinates.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panelPhone
-            // 
-            this.panelPhone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelPhone.Controls.Add(this.labelPhone);
-            this.panelPhone.Location = new System.Drawing.Point(50, 40);
-            this.panelPhone.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelPhone.Name = "panelPhone";
-            this.panelPhone.Size = new System.Drawing.Size(250, 96);
-            this.panelPhone.TabIndex = 0;
             // 
             // labelPhone
             // 
@@ -65,23 +53,23 @@
             this.buttonCapture.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCapture.Font = new System.Drawing.Font("Arial", 12F);
             this.buttonCapture.ForeColor = System.Drawing.Color.Red;
-            this.buttonCapture.Location = new System.Drawing.Point(320, 64);
+            this.buttonCapture.Location = new System.Drawing.Point(546, 11);
             this.buttonCapture.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonCapture.Name = "buttonCapture";
             this.buttonCapture.Size = new System.Drawing.Size(150, 32);
             this.buttonCapture.TabIndex = 1;
-            this.buttonCapture.Text = "Chụp hình mới";
+            this.buttonCapture.Text = "Lấy tọa độ";
+            this.buttonCapture.Click += new System.EventHandler(this.buttonCapture_Click);
             // 
             // panelCoordinates
             // 
             this.panelCoordinates.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelCoordinates.Controls.Add(this.labelTitle);
-            this.panelCoordinates.Controls.Add(this.labelCoordinates);
             this.panelCoordinates.Controls.Add(this.buttonClose);
-            this.panelCoordinates.Location = new System.Drawing.Point(500, 32);
+            this.panelCoordinates.Location = new System.Drawing.Point(856, 22);
             this.panelCoordinates.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelCoordinates.Name = "panelCoordinates";
-            this.panelCoordinates.Size = new System.Drawing.Size(350, 104);
+            this.panelCoordinates.Size = new System.Drawing.Size(350, 740);
             this.panelCoordinates.TabIndex = 2;
             // 
             // labelTitle
@@ -95,17 +83,6 @@
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "Bảng hiển thị điểm tọa độ";
             // 
-            // labelCoordinates
-            // 
-            this.labelCoordinates.AutoSize = true;
-            this.labelCoordinates.Font = new System.Drawing.Font("Arial", 12F);
-            this.labelCoordinates.ForeColor = System.Drawing.Color.Red;
-            this.labelCoordinates.Location = new System.Drawing.Point(65, 48);
-            this.labelCoordinates.Name = "labelCoordinates";
-            this.labelCoordinates.Size = new System.Drawing.Size(180, 23);
-            this.labelCoordinates.TabIndex = 1;
-            this.labelCoordinates.Text = "(130:150, 160:180)";
-            // 
             // buttonClose
             // 
             this.buttonClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -118,20 +95,31 @@
             this.buttonClose.TabIndex = 2;
             this.buttonClose.Text = "X";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Lime;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(546, 98);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 40);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Lưu tọa độ";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 320);
-            this.Controls.Add(this.panelPhone);
+            this.ClientSize = new System.Drawing.Size(1275, 773);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonCapture);
             this.Controls.Add(this.panelCoordinates);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Giao diện chụp hình";
             this.Load += new System.EventHandler(this.Form1_Load_1);
-            this.panelPhone.ResumeLayout(false);
-            this.panelPhone.PerformLayout();
             this.panelCoordinates.ResumeLayout(false);
             this.panelCoordinates.PerformLayout();
             this.ResumeLayout(false);
@@ -140,12 +128,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panelPhone;
+        //private System.Windows.Forms.Panel panelPhone;
         private System.Windows.Forms.Label labelPhone;
         private System.Windows.Forms.Button buttonCapture;
         private System.Windows.Forms.Panel panelCoordinates;
         private System.Windows.Forms.Label labelTitle;
-        private System.Windows.Forms.Label labelCoordinates;
         private System.Windows.Forms.Button buttonClose;
+        private System.Windows.Forms.Button button1;
     }
 }
